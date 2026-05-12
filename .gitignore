@@ -3,6 +3,5 @@
 node_modules/
 .vscode/
 .idea/
-.claude/
 *.swp
 Thumbs.db
