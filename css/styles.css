@@ -1151,22 +1151,27 @@ body.no-scroll { overflow: hidden; }
 }
 .footer-social a:hover { background: rgba(255,255,255,.1); color: #fff; }
 .footer-social svg { width: 18px; height: 18px; }
+.footer-social { gap: 14px; }
+.footer-social a.has-flag { margin-bottom: 10px; }
 .footer-social a { position: relative; }
 .footer-social a.has-flag .flag {
   position: absolute;
-  bottom: -3px;
-  right: -3px;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
   background: var(--c-gold);
   color: var(--c-navy);
   font-family: var(--font-heading);
   font-size: 8px;
   font-weight: 700;
-  padding: 2px 4px;
-  border-radius: 6px;
+  padding: 3px 8px;
+  border-radius: 999px;
   line-height: 1;
-  letter-spacing: .04em;
+  letter-spacing: .06em;
+  text-transform: uppercase;
   border: 1.5px solid var(--c-navy);
   pointer-events: none;
+  white-space: nowrap;
 }
 
 /* Messaging row (contact page) */
