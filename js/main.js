@@ -131,14 +131,14 @@
         'Phone: ' + phone + '\n\n' +
         'Message:\n' + message + '\n';
 
-      var mailto = 'mailto:ismaellateef81@gmail.com'
+      var mailto = 'mailto:bescepos@gmail.com'
         + '?subject=' + encodeURIComponent(subject)
         + '&body=' + encodeURIComponent(body);
 
       var msg = document.querySelector('.form-msg');
       if (msg) {
         msg.classList.add('is-visible');
-        msg.innerHTML = 'Opening your email app. If nothing happens, send your message directly to <a href="mailto:ismaellateef81@gmail.com">ismaellateef81@gmail.com</a>.';
+        msg.innerHTML = 'Opening your email app. If nothing happens, send your message directly to <a href="mailto:bescepos@gmail.com">bescepos@gmail.com</a>.';
       }
       window.location.href = mailto;
     });
